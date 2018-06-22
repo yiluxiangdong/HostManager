@@ -10,7 +10,7 @@ from django.forms.models import model_to_dict
 # Create your views here.
 
 def  index(request):
-    # return render(request,'main.html',locals())
+   
     return render(request, 'index.html', locals())
 
 
